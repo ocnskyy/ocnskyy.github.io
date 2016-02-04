@@ -1,10 +1,7 @@
-'use strict'
-var app = angular.module('gh-pages', ['ui.router']);
-
-app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
-	
+$('.nav-tabs li').click(function() {
+	$('.nav-tabs li').removeClass('active');
+	$(this).addClass('active');
+	var name = $(this).attr('data-tab');
+	$('.info > div').removeClass('current');
+	$('#'+name).addClass('current');
 });
-
-app.controller('MainController', ['$scope', '$state', function($scope, $state) {
-	$scope.hello = 'hello!';
-}]);
