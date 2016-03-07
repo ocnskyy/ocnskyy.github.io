@@ -1,5 +1,2 @@
 # ocnskyy.github.io
-### install
-```sh
-$ bower install
-```
+http://ocnskyy.github.io/
