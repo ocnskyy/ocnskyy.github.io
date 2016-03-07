@@ -40,7 +40,7 @@
 
 .info > div {
 	display: none;
-	font-size: 1.5em;
+	font-size: 1.8em;
 	font-family: roboto-medium;
 	margin-top: 20px;
 	text-align: left;
@@ -75,4 +75,20 @@ p.about {
 
 .img-responsive {
 	margin: 0 auto;
+}
+
+.more {
+	font-family: roboto-light;
+	font-size: 0.9em;
+}
+
+.more {
+	font-family: roboto-light;
+	font-size: 0.9em;
+}
+
+.more-right {
+	flow: right;
+	font-family: roboto-light;
+	font-size: 0.9em;
 }

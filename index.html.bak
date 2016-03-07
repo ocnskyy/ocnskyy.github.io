@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Hello There!</title>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="content">
+		<div class="header">
+			<ul class="nav nav-tabs">
+			  <li data-tab="tab-1"><a href="#">Projects</a></li>
+			  <li data-tab="tab-2" class="active"><a href="#">Hello</a></li>
+			  <li data-tab="tab-3"><a href="#">Bye</a></li>
+			</ul>
+		</div>
+
+		<div class="info">
+			<div id="tab-1">first</div>
+
+			<div id="tab-2" class="current">
+				<p style="text-align: center;">Привет, меня зовут Сережа и я хочу быть разработчиком.</p>
+				<p>Все началось еще с детства, после просмотра Swordfish. Помните там Хью Джекман должен был взломать банк с пушкой у виска?</p>
+				<img src="img/jackman.jpg" class="img-responsive"><p class="about">Хакни мне банк за 60 секунд.</p>
+				<p>К сожалению, в школе максмум, что мы делали, это писали непонятные программы в 10 строк на Turbo Pascal.</p>
+				<p>Окончив школу с золотой медалью и поступив в Харьковский Национальный Университет Радиоэлектроники я встретил прекрасного преподавателя, который научил меня первому языку - C++. </p>
+				<p>Весь первый курс был потрачен на написание лабораторных всему потоку и реализации каких-то задач, которые сам и придумывал. Была прочитана куча документации, книг и статей. Основы были изучены, три столба ООП были преодолены, змейка и Space Invaders на OpenGL двигались как и надо, но что-то подсказывало, что это все равно не мое.</p>
+				<p>С тех пор перепробовал C#, Java, Python. Учил основы, кодил десктопные приложения. Попробовал Android.</p>
+				<img class="img-responsive bad-images" src="img/me-search.jpg"></img>
+				<p class="about">Нахожусь в поисках</p>
+				<p>Пока наконец не начал двигаться в сторону веба. Начальные знания HTML/CSS уже были, да и у кого их нет, поэтому попробовал PHP. Больше не пробовал, точно не мое. Java для сервера? Ну может, но какая-то она все равно не такая. Синтаксис у C# покрасивее, и плюсы больше напомниает, но это Майкрософт и виртуальная машина только для винды.</p>
+				<img src="img/sharp.jpg"class="img-responsive">
+				<p class="about">Кто-то когда то назвал шарп мощной лазерной пушкой, установленной на тщедушном ослике. И да, без ослика она практически не работает.</p>
+				<p>Долго думая, что же выбрать, чтобы было интересно, нравилось и было в тренде, я познакомился с человеком, который расчистил бардак в голове. В декабре 2014 я точно определился, что самое лучшее направление - веб. Но что же выбрать? Бекенд? Не, мне хватило. Вот именно, фронтенд! Это ведь то самое, что так привлекало. К тому же на тот момент из всех языком JavaScript нравился больше всего.</p>
+				<p>И вот начался долгий путь для становления настоящим разработчиком. Был прочитан весь W3School, пройдены кучи курсов, тестов. Все знания получал сам с помощью Google и YouTube (который, по факту, все равно принадлежит Google). После изучения Bootstrap поучавствовал в верстке <a href="http://clickjobs.co.uk/" target="_blank">одного проекта</a>. После окончания выпустил WebView-приложения на <a href="https://play.google.com/store/apps/details?id=clickjobs.co.uk.clickjobs" target="_blank">Android</a>, <a href="https://itunes.apple.com/us/app/click-jobs-ltd./id1047832119" target="_blank">IOS</a> и <a href="https://www.microsoft.com/en-us/store/apps/click-jobs-ltd/9nblggh64d1l" target="_blank"> Winphone</a>. Заинтересовался гибридной мобильной разработкой, попробовал чистую Cordova, адобовский Phonegap и, конечно же, Ionic Framework.</p>
+				<p>Правда, к Ионику я пришел только после того, как хоть немного разобрался в <a href="http://money-charts.herokuapp.com/" target="_blank">Angular.js</a>. В последнее время самостоятельными усилиями улучшал свои навыки, делая небольшие <a href="http://ocnskyy.github.io/geneticAlgorithm/" target="_blank">проекты</a>. Когда файлов становилось слишком много, а пихать все в один не хотелось, пришлось разобраться с Gulp. Когда возникла необходимость для красивой организации передачи данных между контроллерами, пришлось еще раз покопаться в ангуляре, чтобы на совесть сдать <a href="http://socionic-tree.herokuapp.com/" target="_blank"> курсовую</a> тому самому преподавателю, который и открыл мир программирования.</p>
+				<p>И это на самом деле так здорово, что и не описать. Каждый день узнавать что-то новое: библотеку, фреймворк или просто события из мира IT.</p>
+				<img src="img/closure.JPG" class="img-responsive">
+				<p class="about">Пример использования замыкания, которое, к своему стыду, только недавно понял</p>
+				<p>Но все же, почему именно JS? Не потому что это самый популярный язык. Он прост и универсален: пиши анимашку на JQuery, или роутинг на Angular, можно даже написать сервер на node.js. Создать игру? Легко, просто надо <a href="http://ocnskyy.github.io/canvasFun/" target="_blank">разобрать Canvas</a>. Просто бери и делай магию. Как сказал великий и ужасный Гейб, создатель Valve:</p>
+				<img class="img-responsive" src="img/gabe.jpg"></img>
+				<p class="about">Programmers of tomorrow are the wizards of the future.</p>
+				<p>Что же касается ОС, то всю жизнь сидел на винде, но после открытия линукса так и не успокоился. В результате имею Dual Boot на всех машинах. Debian, Ubuntu, Arch, Fedora, OpenSuse, CentOS - все перепробовал. Почувствовал удобство даже недавно, когда не смог из под винды залить приложение на Heroku. А из под ElementaryOS смог.</p>
+				<p>Что дальше? В планах до конца разобраться с ES6, ведь это спецификация, которую будут поддерживать все браузеры. Также хотелось бы уметь писать небольшой Rest API, используя MongoDB+Express+Node.js. Из всех фреймворком на первом месте по изучению стоит React, ведь это просто разрыв шаблона. А после выхода React Native не успокоюсь, пока не напишу какое-нибудь мобильное приложение.</p>
+				<img src="img/me-end.jpg" class="img-responsive">
+				<p class="about">Спасибо за внимание.</p>
+			</div>
+
+			<div id="tab-3">third</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
